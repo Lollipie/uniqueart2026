@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="zh-HK">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>「今天的校園，明天的夢想」2026 | Unique Art 兒童繪畫比賽</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;700;900&display=swap');
+        
+        body { 
+            font-family: 'Noto Sans TC', sans-serif; 
+            scroll-behavior: smooth;
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        .fade-in { 
+            animation: fadeIn 0.4s ease-out forwards; 
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(15px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .bg-art-pattern {
+            background-color: #f8fafc;
+            background-image: radial-gradient(#cbd5e1 0.5px, transparent 0.5px);
+            background-size: 30px 30px;
+        }
+
+        .card-shadow {
+            box-shadow: 0 4px 20px -2px rgba(0, 0, 0, 0.05);
+        }
+
+        .legal-section { 
+            border-left: 4px solid #6366f1; 
+            padding-left: 1.25rem; 
+            margin-bottom: 2.5rem; 
+        }
+
+        .whatsapp-float:hover {
+            transform: scale(1.02);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+        }
+    </style>
+</head>
+<body class="bg-art-pattern text-slate-800 min-h-screen pb-24">
+
+    <!-- Navigation Bar -->
+    <nav class="sticky top-0 z-50 bg-white/90 backdrop-blur-lg border-b border-slate-200 py-4 px-6">
+        <div class="max-w-5xl mx-auto flex justify-between items-center">
+            <div class="flex items-center space-x-2">
+                <div class="w-8 h-8 bg-indigo-600 rounded-lg flex items-center justify-center text-white font-black">U</div>
+                <div class="font-black text-indigo-600 text-2xl tracking-tighter">Unique Art</div>
+            </div>
+            <a href="https://wa.me/85251111920" class="hidden md:flex bg-[#25D366] text-white px-5 py-2.5 rounded-full text-sm font-bold items-center shadow-lg transition active:scale-95">
+                <i class="fab fa-whatsapp mr-2 text-lg"></i> 查詢 5111 1920
+            </a>
+        </div>
+    </nav>
+
+    <!-- View 1: Summary Dashboard -->
+    <div id="view-summary" class="fade-in max-w-5xl mx-auto px-6 py-10 md:py-16">
+        
+        <!-- Hero Section -->
+        <div class="text-center mb-12 md:mb-20">
+            <span class="inline-block px-4 py-1.5 bg-indigo-50 text-indigo-600 rounded-full text-xs font-black tracking-widest uppercase mb-4">
+                2026 兒童繪畫比賽
+            </span>
+            <h1 class="text-4xl md:text-6xl font-black text-slate-900 mb-6 leading-tight tracking-tight">
+                「今天的校園，<br class="hidden md:block">明天的夢想」
+            </h1>
+            <p class="text-lg md:text-xl text-slate-500 max-w-2xl mx-auto font-light leading-relaxed">
+                引導孩子把現在的校園生活和未來的理想生活連結起來。
+<br class="hidden md:block">
+                讓孩子主導創意，展現獨特的藝術風格。
+            </p>
+        </div>
+
+        <!-- 6 Core Info Cards -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-16">
+            
+            <!-- 1. Groups -->
+            <div class="bg-white p-7 rounded-3xl border border-slate-100 card-shadow">
+                <div class="w-12 h-12 bg-blue-50 rounded-2xl flex items-center justify-center text-blue-600 mb-6">
+                    <i class="fas fa-user-friends text-xl"></i>
+                </div>
+                <h3 class="font-bold text-xl mb-2 text-slate-900">參賽對象</h3>
+                <p class="text-slate-500 leading-relaxed">初小組 (P1 - P3)<br>高小組 (P4 - P6)</p>
+            </div>
+
+            <!-- 2. Prizes -->
+            <div class="bg-white p-7 rounded-3xl border border-slate-100 card-shadow">
+                <div class="w-12 h-12 bg-amber-50 rounded-2xl flex items-center justify-center text-amber-600 mb-6">
+                    <i class="fas fa-trophy text-xl"></i>
+                </div>
+                <h3 class="font-bold text-xl mb-2 text-slate-900">獎項設置</h3>
+                <p class="text-slate-500 leading-relaxed">各組設冠、亞、季、殿軍<br>及 5 名優異獎</p>
+            </div>
+
+            <!-- 3. Size -->
+            <div class="bg-white p-7 rounded-3xl border border-slate-100 card-shadow">
+                <div class="w-12 h-12 bg-emerald-50 rounded-2xl flex items-center justify-center text-emerald-600 mb-6">
+                    <i class="fas fa-file-alt text-xl"></i>
+                </div>
+                <h3 class="font-bold text-xl mb-2 text-slate-900">作品規格</h3>
+                <p class="text-slate-500 leading-relaxed">A4 (210 x 297mm)<br>實體手繪作品</p>
+            </div>
+
+            <!-- 4. Duration -->
+            <div class="bg-white p-7 rounded-3xl border border-slate-100 card-shadow">
+                <div class="w-12 h-12 bg-indigo-50 rounded-2xl flex items-center justify-center text-indigo-600 mb-6">
+                    <i class="fas fa-clock text-xl"></i>
+                </div>
+                <h3 class="font-bold text-xl mb-2 text-slate-900">創作時數</h3>
+                <p class="text-slate-500 leading-relaxed">每位 3 小時<br>(建議 1 - 2 堂完成)</p>
+            </div>
+
+            <!-- 5. Fees -->
+            <div class="bg-white p-7 rounded-3xl border border-slate-100 card-shadow">
+                <div class="w-12 h-12 bg-pink-50 rounded-2xl flex items-center justify-center text-pink-600 mb-6">
+                    <i class="fas fa-tag text-xl"></i>
+                </div>
+                <h3 class="font-bold text-xl mb-2 text-slate-900">報名費用</h3>
+                <p class="text-slate-500 leading-relaxed text-sm">含行政費、專業畫材、獎項<br>及<strong>實體紀念繪本一冊</strong></p>
+            </div>
+
+            <!-- 6. Location -->
+            <div class="bg-white p-7 rounded-3xl border border-slate-100 card-shadow">
+                <div class="w-12 h-12 bg-violet-50 rounded-2xl flex items-center justify-center text-violet-600 mb-6">
+                    <i class="fas fa-map-marker-alt text-xl"></i>
+                </div>
+                <h3 class="font-bold text-xl mb-2 text-slate-900">創作地點</h3>
+                <p class="text-slate-500 text-xs leading-relaxed">香港香港仔香港仔大道208號<br>裕輝商業中心 16 樓 Unique Art</p>
+            </div>
+
+        </div>
+
+        <!-- Call to Action Button -->
+        <div class="flex flex-col items-center space-y-6">
+            <button onclick="toggleView('details')" class="group relative bg-indigo-600 text-white w-full max-w-md py-5 rounded-2xl font-black text-xl shadow-2xl shadow-indigo-200 hover:bg-indigo-700 hover:-translate-y-1 transition-all flex items-center justify-center">
+                查看詳細章程及法律條款
+                <i class="fas fa-arrow-right ml-4 text-sm group-hover:translate-x-2 transition-transform"></i>
+            </button>
+            <div class="flex items-center text-slate-400 text-sm space-x-2">
+                <i class="fas fa-shield-alt"></i>
+                <span>內附版權說明、非商品化承諾及退還政策</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- View 2: Detailed Rules View -->
+    <div id="view-details" class="hidden fade-in max-w-3xl mx-auto px-6 py-12">
+        
+        <!-- Navigation Back -->
+        <button onclick="toggleView('summary')" class="mb-10 flex items-center text-indigo-600 font-bold hover:bg-indigo-50 px-4 py-2 rounded-lg transition">
+            <i class="fas fa-chevron-left mr-2"></i> 返回簡介
+        </button>
+
+        <!-- Header -->
+        <div class="mb-16">
+            <h2 class="text-3xl md:text-4xl font-black text-slate-900 mb-4">比賽章程及細則</h2>
+            <p class="text-slate-500">請家長及監護人於報名前細閱以下條款</p>
+            <div class="w-20 h-1.5 bg-indigo-500 mt-6 rounded-full"></div>
+        </div>
+
+        <!-- Section 1 -->
+        <section class="legal-section">
+            <h3 class="text-xl font-bold text-indigo-900 mb-5 flex items-center">
+                <i class="fas fa-lightbulb mr-4 opacity-50"></i> 1. 比賽宗旨
+            </h3>
+            <div class="text-slate-600 space-y-4 leading-relaxed text-sm md:text-base">
+                <p>「今天的校園，明天的夢想」引導孩子把現在的校園生活與未來的理想生活連結起來。旨在培養創意思維，導師角色僅限於技巧講解與心智圖（Mind Map）啟發，確保創作由學員主導。</p>
+                <div class="bg-indigo-50 p-5 rounded-2xl border border-indigo-100">
+                    <p class="font-bold text-indigo-800 mb-2">?? 繪本製作承諾：</p>
+                    <p class="text-xs text-indigo-700">所有參賽作品將於賽後掃描歸檔，並集結成冊印製成實體【比賽紀念繪本】。Unique Art 將於繪本中撰寫專屬致謝頁，表揚孩子的熱誠與創意。</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 2 -->
+        <section class="legal-section">
+            <h3 class="text-xl font-bold text-indigo-900 mb-5 flex items-center">
+                <i class="fas fa-award mr-4 opacity-50"></i> 2. 獎項設置細節
+            </h3>
+            <div class="grid grid-cols-2 gap-3 text-sm font-bold text-slate-700">
+                <div class="bg-white p-4 rounded-xl border border-slate-100 flex items-center"><i class="fas fa-medal text-amber-500 mr-2"></i> 冠軍 (1名)</div>
+                <div class="bg-white p-4 rounded-xl border border-slate-100 flex items-center"><i class="fas fa-medal text-slate-400 mr-2"></i> 亞軍 (1名)</div>
+                <div class="bg-white p-4 rounded-xl border border-slate-100 flex items-center"><i class="fas fa-medal text-orange-400 mr-2"></i> 季軍 (1名)</div>
+                <div class="bg-white p-4 rounded-xl border border-slate-100 flex items-center"><i class="fas fa-medal text-indigo-300 mr-2"></i> 殿軍 (1名)</div>
+                <div class="bg-white p-4 rounded-xl border border-slate-100 flex items-center col-span-2 justify-center"><i class="fas fa-star text-blue-400 mr-2"></i> 各組設優異獎 (5名)</div>
+            </div>
+        </section>
+
+        <!-- Section 3 -->
+        <section class="legal-section">
+            <h3 class="text-xl font-bold text-indigo-900 mb-5 flex items-center">
+                <i class="fas fa-clipboard-list mr-4 opacity-50"></i> 3. 創作規則與保管
+            </h3>
+            <div class="text-slate-600 space-y-3 text-sm">
+                <p>● <strong>現場完成：</strong> 作品必須於 Unique Art 工作室現場在 3 小時內完成。</p>
+                <p>● <strong>實體規格：</strong> 限 A4 尺寸手繪作品，不接受電腦繪圖或 AI 生成。</p>
+                <p>● <strong>保管政策：</strong> 完成後作品由畫室保管，用於繪本製作。如遇不可抗力因素導致損壞，不設金錢賠償。</p>
+                <p class="font-bold text-pink-600 bg-pink-50 p-4 rounded-xl border border-pink-100">● 重要提示：為確保繪本印製流程順利，所有參賽作品概不發還。</p>
+            </div>
+        </section>
+
+        <!-- Section 4 -->
+        <section class="legal-section">
+            <h3 class="text-xl font-bold text-indigo-900 mb-5 flex items-center">
+                <i class="fas fa-balance-scale mr-4 opacity-50"></i> 4. 法律條款與承諾
+            </h3>
+            <div class="text-slate-600 space-y-4 text-sm leading-relaxed">
+                <p><strong>版權歸屬：</strong> 作品之原創版權永遠屬於參賽小朋友所有。</p>
+                <p><strong>非商品化承諾：</strong> Unique Art 承諾絕不會將參賽作品用於任何純商業產品（如 T-shirt、手機殼）之量產牟利，僅用於推廣教育及品牌展示。</p>
+                <p><strong>私隱保障：</strong> 收集資料僅用於比賽通訊及作品標示，嚴格遵守香港私隱條例。</p>
+            </div>
+        </section>
+
+        <!-- Final CTA -->
+        <div class="mt-20 text-center border-t border-slate-100 pt-10">
+            <button onclick="toggleView('summary')" class="text-indigo-600 font-bold underline decoration-2 underline-offset-4">回到資訊首頁</button>
+        </div>
+    </div>
+
+    <!-- Persistent Floating WhatsApp Button (Mobile & Desktop) -->
+    <div class="fixed bottom-0 left-0 right-0 p-4 md:p-6 bg-white/80 backdrop-blur-md border-t border-slate-100 z-50 flex justify-center">
+        <a href="https://wa.me/85251111920" class="whatsapp-float w-full max-w-lg bg-[#25D366] text-white text-center py-4 rounded-2xl font-black text-lg md:text-xl flex items-center justify-center shadow-xl shadow-green-100 transition-all active:scale-95">
+            <i class="fab fa-whatsapp mr-4 text-2xl md:text-3xl"></i> WhatsApp 查詢: 5111 1920
+        </a>
+    </div>
+
+    <script>
+        function toggleView(view) {
+            const summary = document.getElementById('view-summary');
+            const details = document.getElementById('view-details');
+            
+            if (view === 'details') {
+                summary.classList.add('hidden');
+                details.classList.remove('hidden');
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            } else {
+                details.classList.add('hidden');
+                summary.classList.remove('hidden');
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            }
+        }
+    </script>
+
+</body>
+</html>
